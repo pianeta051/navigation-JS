@@ -18,7 +18,8 @@ for (const link of links) {
         }
         target.classList.add('active');
         // Modificar la URL
-        history.pushState({}, '', '/list');
+        const url = target.dataset.to;
+        history.pushState({}, '', url);
     });
 }
 
