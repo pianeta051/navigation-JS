@@ -1,0 +1,15 @@
+.content {
+    display: none;
+}
+
+.list-page {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.list-page.active {
+    display: block;
+}

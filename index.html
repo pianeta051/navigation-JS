@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Avanzado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" data-to="/" data-content="home">Navegación</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" data-to="/" data-content="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-to="/list" data-content="list">List</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 content active" id="home">
+                <h1>Home page</h1>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium eveniet, tenetur earum alias officia fugit magnam dignissimos ea expedita inventore consectetur unde explicabo possimus mollitia. Ipsum consectetur suscipit culpa iusto
+                    accusantium, illum maiores voluptate officia. Qui ex repellat neque error laborum deleniti quod nihil autem, nostrum non quibusdam ratione, nulla id iusto unde expedita temporibus maxime officia nemo veritatis odio dolor. Quae blanditiis
+                    rem incidunt saepe maxime dolores voluptates inventore dolor quia tempore excepturi vel voluptatibus quo sequi repudiandae sed molestias velit nesciunt nulla assumenda veritatis libero cum, at provident? Repellendus voluptas, similique
+                    ducimus explicabo quisquam ab labore unde quis in dolores et, nostrum blanditiis id fugit odio! Aliquid nihil repellat ex, commodi nobis alias debitis veritatis soluta. Labore, adipisci.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium harum minima soluta maxime corporis nemo vel aperiam, incidunt nobis deleniti error dolorem temporibus distinctio, ad sequi quibusdam? Suscipit, a. Quaerat, expedita
+                    quasi quos voluptas maiores at labore amet perferendis illo ratione. Perspiciatis impedit similique molestias nobis? Consequuntur quas corporis obcaecati, sint mollitia eos et, non eligendi labore quia odit nihil delectus deleniti.
+                    Quo, maiores! Magnam excepturi, enim tenetur repellendus beatae voluptatibus a. Accusamus cum, odio quidem dolore dolor quae corrupti. Harum dicta culpa porro vel ad minima alias nam cupiditate provident possimus quis libero hic dolores
+                    non, pariatur facilis fugiat vitae magnam vero consectetur molestias. Illum nulla est quaerat sunt. Non repudiandae necessitatibus qui, ut atque perferendis eligendi facilis nemo odit fuga ipsum rem sint doloremque reprehenderit quo
+                    odio voluptas, corrupti voluptatem optio veniam? Corrupti voluptates dolores quaerat voluptatem, deserunt dolorum obcaecati harum, impedit, dicta temporibus dignissimos doloremque excepturi atque. At error quibusdam esse animi eaque
+                    alias debitis, tempora, itaque nesciunt inventore non, porro ea blanditiis natus veniam assumenda ab explicabo! Dolores corporis soluta voluptate ad dolor necessitatibus cumque ea tenetur! Hic atque, tenetur optio recusandae laudantium
+                    commodi placeat. Sed deleniti dolore veritatis pariatur, perferendis eos labore repellat quos tenetur.</p>
+            </div>
+            <div class="col-12 col-md-10 offset-md-1 content" id="list">
+                <h1>List</h1>
+                <hr>
+                <ul class="list-group list-page active" id="page-1">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">A fourth item</li>
+                    <li class="list-group-item">And a fifth one</li>
+                </ul>
+                <ul class="list-group list-page" id="page-2">
+                    <li class="list-group-item">Second page item</li>
+                    <li class="list-group-item">Second page item</li>
+                    <li class="list-group-item">Second page item</li>
+                    <li class="list-group-item">Second page item</li>
+                    <li class="list-group-item">Second page item</li>
+                </ul>
+                <div class="d-flex flex-row-reverse mt-4">
+                    <ul class="pagination">
+                        <li class="page-item active"><a class="page-link" href="#" data-page="1">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#" data-page="2">2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
