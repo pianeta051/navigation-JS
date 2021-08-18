@@ -38,5 +38,7 @@ for (const pageLink of pageLinks) {
             link.parentElement.classList.remove('active');
         }
         pageLink.parentElement.classList.add('active');
+        const url = `/list/${page}`;
+        history.pushState({}, '', url);
     });
 }
